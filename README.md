@@ -1,46 +1,35 @@
-# Getting Started with Create React App
+# Product-Cart
+React-приложение для корзины товаров магазина на основе компонентов-функций. Задание для стажировки в VK
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+При создании были использованы:
+<ol>
+<li>React</li>
+<li>TypeScript</li>
+<li>Redux Tool-kit</li>
+<li>Axios</li>
+<li>Material UI</li>
+</ol>
 
-## Available Scripts
 
-In the project directory, you can run:
+<strong>Требования</strong>
 
-### `npm start`
+Макет из 2 колонок шириной 3:1 (применить дизайн-систему или flexbox/grid в css).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<strong>Левая колонка</strong>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Вывод вертикального списка карточек товаров в корзине.
 
-### `npm test`
+<strong>Карточка товара:</strong>
+Фото товара, название (под ним описание), количество, стоимость.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<strong>Действия с товаром:</strong>
+<ol>
+	<li>Изменить количество (кнопка с иконкой +/- и ограничением - минимум 1 товар, максимум 10).</li>
+	<li>Удалить (кнопка с иконкой корзины).</li>
+</ol>
 
-### `npm run build`
+<strong>Правая колонка</strong>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Вывод текста "Итого: &lt;сумма&gt; руб." и итоговой суммы заказа по всем товарам, учитывая количества каждого товара в корзине.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Данные для корзины взяты отсюда: https://fakestoreapi.com/products
