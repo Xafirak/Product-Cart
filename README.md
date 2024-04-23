@@ -33,3 +33,24 @@ React-приложение для корзины товаров магазина
 Вывод текста "Итого: &lt;сумма&gt; руб." и итоговой суммы заказа по всем товарам, учитывая количества каждого товара в корзине.
 
 Данные для корзины взяты отсюда: https://fakestoreapi.com/products
+
+
+
+
+## Screenshots
+<details>
+  <summary>Click!</summary>
+  
+![11](https://github.com/Xafirak/Product-Cart/assets/118333625/ae273062-6a0f-4cdf-814d-bfea86505740)
+![12](https://github.com/Xafirak/Product-Cart/assets/118333625/3e43b216-e33b-498c-a44f-fbd0e4cdfdf2)
+
+  
+</details>
+
+
+
+
+
+
+
+
